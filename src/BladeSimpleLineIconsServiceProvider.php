@@ -19,7 +19,6 @@ final class BladeSimpleLineIconsServiceProvider extends ServiceProvider
 
             $factory->add('simple-line-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeSimpleLineIconsServiceProvider extends ServiceProvider
             ], 'blade-simple-line-icons-config');
         }
     }
-
 }
